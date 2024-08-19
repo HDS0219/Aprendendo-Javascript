@@ -1,3 +1,1 @@
-// Forma de input por prompt
-let usuario = prompt("digite seu nome: ")
-alert(`${usuario} bem-vindo!`)
+console.log("Substitua o codigo e coloque-o aqui.")
