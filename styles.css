@@ -1,8 +1,11 @@
+
 body{
     font-size: 20px;
+    background: rgb(121,113,255);
+    background: linear-gradient(90deg, rgba(121,113,255,1) 0%, rgba(68,1,150,1) 50%, rgba(0,212,255,1) 100%);
 }
 p{
-    color:blue;
+    color:lime;
     font-family: sans-serif;
 }
 .meme{
