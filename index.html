@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <script src="linktroll.js" defer></script>
+    <script src="animation.js" async></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
@@ -24,8 +26,14 @@
     <img src="meme programador.jpg" alt="meme programador" class="meme">
     <img src="notepadmeme.jpg" alt="ninguem aceita mas essa é a melhor forma de codar, eu que sou preguiçoso e uso vscode." class="meme">
     <p>Agora que riu desses memes "super engraçados", você pode me fazer uma doação para eu não continuar meu trabalho clicando no botão abaixo.</p>
-    <button>doação</button>
+    <button id="abrirLink">Doação!</button>
     <h1 style="font-size: 20px;">if(button_get_pressed == true){ <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">trollar pessoa</a>} else return triste</h1>
     <p class="direita"> esse texto está oculto, somente os usuarios de navegador web podem ver ele</p>
+    <hr class="solid">
+    <p>Você gostou da experiência do website maneiro que acabei de fazer que com toda certeza eu perdi mais meu tempo procurando o que por aqui do que fazer algo de util para ele?</p>
+    <a href="sim.html"><button>SIM!</button></a>
+    <!--eu não sei como corrigir, eu não sei como faze-lo funcional, eu não faço a minima ideia de como deixa-lo fixo inicialmente, 
+    nem mesmo o chatgpt foi util pra corrigir meu codigo ou para substituir ele. se alguem souber como, me contate por favor!-->
+    <button id="moveButton">NÃO!</button>
 </body>
 </html>

@@ -19,3 +19,46 @@ p{
     text-align: right;
     
 }
+#moveButton {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.centro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.aparecendo{
+    animation-name: slidein;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    animation: slidein 4s;
+}
+.aparecendo-p1{
+    animation: slidein;
+    animation-name: slidein;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    animation: slidein 6s;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+    background-clip: text;
+    color: transparent; 
+}
+
+@keyframes slidein{
+    from{
+        translate: 150vw 0;
+        scale: 200% 1;
+    }
+    to{
+        translate: 0 0;
+        scale: 100% 1;
+    }   
+}
