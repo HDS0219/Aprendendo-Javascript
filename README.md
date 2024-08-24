@@ -11,3 +11,4 @@ um lugar para armazenar meu conhecimento adquirido em javascript e para futuras 
 - HTML `NÃO` é uma linguagem de programação.
 - CSS `NÃO` é tranquilo.
 - JAVA `É SIM` a melhor linguagem que existe.
+- JAVASCRIPT `É ESTRANHO` pra caramba. qual a logica de "==="?
